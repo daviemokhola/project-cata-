@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 5 – Results & Discussion | CHE Thesis</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <h1>CHE</h1>
+        <p class="subtitle">Damo • Uni • 2025</p>
+        <nav>
+          <a href="index.html" class="active">Home</a>
+          <a href="chapter1.html">Chapter1</a>
+          <a href="chapter2.html">Chapter2</a>
+          <a href="chapter3.html">Chapter3</a>
+          <a href="chapter4.html">Chapter4</a>
+          <a href="chapter5.html">Chapter5</a>
+          <a href="chapter6.html">Chapter6</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Chapter 5 — Results and Discussion</h2>
+
+        <h3>
+          5.4.1 Determinants of Catastrophic Health Expenditures in Malawi
+        </h3>
+        <p>
+          Table 5.15 presents the results of the binary logistic regression
+          examining the determinants of catastrophic health expenditures (CHE)
+          at the 40% non-food expenditure threshold.
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Variable</th>
+              <th>β (Coef)</th>
+              <th>Robust SE</th>
+              <th>AOR (exp(β))</th>
+              <th>95% CI for AOR</th>
+              <th>p-value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Intercept</td>
+              <td>-2.714</td>
+              <td>0.190</td>
+              <td>0.066</td>
+              <td>0.046 – 0.096</td>
+              <td>3.1e-46***</td>
+            </tr>
+            <tr>
+              <td>Wealth Quintile 2</td>
+              <td>-0.278</td>
+              <td>0.109</td>
+              <td>0.757</td>
+              <td>0.611 – 0.938</td>
+              <td>0.011*</td>
+            </tr>
+            <tr>
+              <td>Wealth Quintile 3</td>
+              <td>-0.383</td>
+              <td>0.112</td>
+              <td>0.682</td>
+              <td>0.548 – 0.849</td>
+              <td>6.0e-04***</td>
+            </tr>
+            <tr>
+              <td>Wealth Quintile 4</td>
+              <td>-0.587</td>
+              <td>0.122</td>
+              <td>0.556</td>
+              <td>0.438 – 0.706</td>
+              <td>1.4e-06***</td>
+            </tr>
+            <tr>
+              <td>Wealth Quintile 5</td>
+              <td>-1.478</td>
+              <td>0.170</td>
+              <td>0.228</td>
+              <td>0.163 – 0.318</td>
+              <td>3.0e-18***</td>
+            </tr>
+            <tr>
+              <td>Age of Head 35–59 yrs</td>
+              <td>-0.312</td>
+              <td>0.106</td>
+              <td>0.732</td>
+              <td>0.595 – 0.901</td>
+              <td>0.003**</td>
+            </tr>
+            <tr>
+              <td>Age of Head 60+ yrs</td>
+              <td>-0.063</td>
+              <td>0.200</td>
+              <td>0.938</td>
+              <td>0.634 – 1.390</td>
+              <td>0.751</td>
+            </tr>
+            <tr>
+              <td>Urban Residence</td>
+              <td>-0.822</td>
+              <td>0.153</td>
+              <td>0.440</td>
+              <td>0.326 – 0.593</td>
+              <td>7.5e-08***</td>
+            </tr>
+            <tr>
+              <td>Insurance Status</td>
+              <td>0.901</td>
+              <td>0.304</td>
+              <td>2.463</td>
+              <td>1.358 – 4.466</td>
+              <td>0.003**</td>
+            </tr>
+            <tr>
+              <td>Chronic Illness Presence</td>
+              <td>0.343</td>
+              <td>0.087</td>
+              <td>1.410</td>
+              <td>1.190 – 1.670</td>
+              <td>7.2e-05***</td>
+            </tr>
+            <tr>
+              <td>Very young (<5 yrs)</td>
+              <td>0.240</td>
+              <td>0.096</td>
+              <td>1.272</td>
+              <td>1.053 – 1.536</td>
+              <td>0.012*</td>
+            </tr>
+            <tr>
+              <td>Elderly 65+ yrs</td>
+              <td>0.394</td>
+              <td>0.175</td>
+              <td>1.483</td>
+              <td>1.053 – 2.088</td>
+              <td>0.024*</td>
+            </tr>
+            <tr>
+              <td>High blood pressure</td>
+              <td>0.896</td>
+              <td>0.230</td>
+              <td>2.449</td>
+              <td>1.561 – 3.840</td>
+              <td>9.6e-05***</td>
+            </tr>
+            <tr>
+              <td>Body & joint pains</td>
+              <td>0.664</td>
+              <td>0.139</td>
+              <td>1.943</td>
+              <td>1.481 – 2.549</td>
+              <td>1.6e-06***</td>
+            </tr>
+            <tr>
+              <td>Fever/Malaria</td>
+              <td>0.248</td>
+              <td>0.083</td>
+              <td>1.281</td>
+              <td>1.088 – 1.508</td>
+              <td>0.003**</td>
+            </tr>
+            <tr>
+              <td>Other Illnesses</td>
+              <td>0.692</td>
+              <td>0.139</td>
+              <td>1.998</td>
+              <td>1.523 – 2.622</td>
+              <td>5.9e-07***</td>
+            </tr>
+            <tr>
+              <td>Sore throat</td>
+              <td>0.644</td>
+              <td>0.174</td>
+              <td>1.905</td>
+              <td>1.354 – 2.681</td>
+              <td>2.2e-04***</td>
+            </tr>
+            <tr>
+              <td>Mission/CHAM Facility</td>
+              <td>2.040</td>
+              <td>0.169</td>
+              <td>7.692</td>
+              <td>5.518 – 10.721</td>
+              <td>2.1e-33***</td>
+            </tr>
+            <tr>
+              <td>Private Facility</td>
+              <td>1.413</td>
+              <td>0.116</td>
+              <td>4.106</td>
+              <td>3.269 – 5.159</td>
+              <td>7.0e-34***</td>
+            </tr>
+            <tr>
+              <td>Did nothing</td>
+              <td>-0.252</td>
+              <td>0.120</td>
+              <td>0.777</td>
+              <td>0.614 – 0.984</td>
+              <td>0.036*</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          <em
+            >Source: Author’s computation from survey data (n = 11,434
+            households) using Python version 3.12.4</em
+          >
+        </p>
+
+        <h3>5.5 Discussion of Findings</h3>
+        <p>
+          The analysis shows that wealth, insurance coverage, presence of young
+          children and elderly members, certain illnesses, and choice of health
+          facility were significant predictors of CHE. Higher wealth quintiles
+          and urban residence reduced CHE risk, whereas having insurance,
+          chronic illness, young children, elderly members, and using mission or
+          private facilities increased CHE likelihood. Education, sex of
+          household head, and household size were largely non-significant.
+        </p>
+        <p>
+          Out-of-pocket spending pushed 1.7% of households into financial
+          hardship, while 0.7% were newly impoverished and 1.4% of the already
+          poor became deeper in poverty. Vulnerable households—those with young
+          children, elderly, or chronically ill members—experienced
+          disproportionate financial risk. Insured households faced unexpectedly
+          higher CHE risk, possibly due to adverse selection or limited
+          coverage.
+        </p>
+        <p>
+          Illness-specific and health-seeking behaviour factors strongly
+          influenced CHE. Chronic and recurrent conditions such as hypertension,
+          body and joint pains, malaria, sore throat, stomach ache, and wounds
+          were major cost drivers. Households using mission/CHAM or private
+          facilities incurred higher CHE, reflecting higher user fees and OOP
+          costs.
+        </p>
+
+        <h3>5.6 Policy Implications</h3>
+        <ul>
+          <li>
+            Expand prepayment and risk-pooling mechanisms, including
+            community-based and national health insurance, with subsidies for
+            the poor.
+          </li>
+          <li>
+            Strengthen health system responses to communicable and
+            non-communicable diseases, focusing on prevention, early detection,
+            and primary care management.
+          </li>
+          <li>
+            Reduce financial burden in mission/CHAM and private facilities via
+            better subsidies, service-level agreements, and price regulation.
+          </li>
+          <li>
+            Target vulnerable households (with children under five or elderly
+            members) with grants, maternal and child health programs, and social
+            protection.
+          </li>
+          <li>
+            Review insurance benefit packages and reimbursement systems to
+            ensure genuine financial protection.
+          </li>
+        </ul>
+        <p>
+          These policy actions are essential to reduce financial risk from
+          health spending and advance Malawi’s Universal Health Coverage (UHC)
+          and Sustainable Development Goal 3.8.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Damo — Uni | Hosted on GitHub Pages</p>
+    </footer>
+  </body>
+</html>
